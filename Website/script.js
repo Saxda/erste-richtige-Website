@@ -14,3 +14,9 @@ const produkte = document.getElementsByClassName("Produkte")[0]
 produkte.addEventListener("click", () => {
     submenup.classList.toggle("active")
 })
+
+const kontakt = document.getElementsByClassName("kontakt")[0]
+
+kontakt.addEventListener("click", () => {
+    alert("Dürfen wir ihre daten speichern?")
+})
